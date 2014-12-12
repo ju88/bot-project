@@ -1,0 +1,8 @@
+{
+    "HOST":"localhost",
+    "PORT":"3306",
+    "NAME":"nise_bot",
+    "USER":"bot_user",
+    "PASS":"bot_passwd",
+    "CHARSET":"utf8"
+}
