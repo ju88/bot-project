@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source define.sh
+source `dirname $0`/define.sh
 
 cd ${DIR_BOT}
 
@@ -8,4 +8,4 @@ cd ${DIR_BOT}
 nohup node nise_bot/main.js ${BOT_NAME1} > log/stdout.txt 2> log/stderr.txt < /dev/null &
 
 # mybot2
-nohup node nise_bot/main.js ${BOT_NAME2} > log/stdout.txt 2> log/stderr.txt < /dev/null &
+#nohup node nise_bot/main.js ${BOT_NAME2} > log/stdout.txt 2> log/stderr.txt < /dev/null &
